@@ -58,14 +58,15 @@ strong {
 }
 
 section {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
     padding-left: 30px;
     line-height: 2em;
     font-size: 4vw;
 }
 
 section > p {
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 1em;
 }
 
 section.normal {
@@ -79,8 +80,6 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
 }
 
 section#img_joaninha {
@@ -89,7 +88,7 @@ section#img_joaninha {
 }
 
 section#img_pag {
-    background-image: url('../imagens/background001.jpg');
+    background-image: url('../imagens/background002.jpg');
     background-position: right center; 
 }
 
