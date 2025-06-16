@@ -12,32 +12,40 @@
     --font_títulos: 'Passion One', sans-serif
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: rgb(214, 214, 214);
+}
+
 
 header {
     background-color: black;
+    color: white;   
     text-align: center;
-    color: white;
-    font-size: 4em;
-    padding: 10px;
-    
 }
 
-header h1 {
+header > h1 {
     font-family: var(--font_títulos);
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
 }
 
-header h2 {
+header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    font-size: 16px;
-    padding: 10px 0px;
+    text-align: center;
+    font-size: 1em;
+    padding: 0px;
+    padding-bottom: 50px;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-weight: bolder;
+    font-size: 1em;
 }
 
 a:hover {
@@ -49,52 +57,53 @@ strong {
     font-weight: bold;
 }
 
-p {
-    text-align: left;
-    padding: 70px 40px;
-    font-size: 3em;
-    margin: -30px 0px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 4vw;
 }
 
-div#joaninha {
-    height: 750px;
-    border: 1px solid black;
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(185, 185, 185);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-size: cover;
+}
+
+section#img_joaninha {
     background: white url('../imagens/background001.jpg') center center no-repeat fixed;
-    background-size: cover;
-    margin-bottom: -10px;
-
 }
 
-div#paginas {
-    height: 750px;
-    border: 1px solid black;
+section#img_pag {
     background: white url('../imagens/background002.jpg') center center no-repeat fixed;
-    background-size: cover;
-    margin-bottom: -10px;
-
 }
 
-p.paragrafo {
-    height: 600px;
-    width: 600px;
-    padding: 10px;
-    text-align: left;
-    margin: 30px;
-    margin-top: 80px;
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 0px black;
 }
 
 footer {
     background-color: black;
-    margin: 2px;
-
 }
 
 footer p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    font-size: 16px;
     color: white;
     text-align: center;
     padding: 8px;
