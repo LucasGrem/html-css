@@ -1,5 +1,78 @@
 @charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 body, html {
     background-color: lightgray;
+}
+
+header {
+    background-color: gray;
+}
+
+header h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+span#burguer {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer; /*O cursor vira uma mãozinha*/
+}
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+} 
+
+menu > ul {
+    list-style-type: none; /*Tira as bolinhas da lista*/
+}
+
+menu > ul > li > a {
+    background-color: rgb(107, 107, 107);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-top: 2px solid gray;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+}
+
+main {
+    width: 85vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}   
+
+article > p {
+    text-align: justify;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    text-indent: 20px; /*Espaço na primeira palavra do parágrafo*/
 }
