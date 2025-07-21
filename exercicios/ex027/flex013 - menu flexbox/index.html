@@ -6,10 +6,15 @@
     <title>Menu Flexbox</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 570px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu Site</h1>
+
+        <menu id="icon">
+            <span onclick="menu()" class="material-symbols-outlined">menu</span>
+        </menu>
 
         <nav id="opcoes">
             <a href="#">Opção 1</a>
@@ -29,5 +34,6 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, doloremque ipsam. Earum quia maxime iste sit, aliquam expedita! Similique nostrum quia veniam cupiditate doloribus porro voluptate sit culpa, nemo dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex mollitia magni beatae sed. Ex eos autem ratione eius laborum ea quo omnis quod, repudiandae, quisquam eum magnam maxime aut?
         </p>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

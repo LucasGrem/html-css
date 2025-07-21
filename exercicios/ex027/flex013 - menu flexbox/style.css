@@ -29,6 +29,10 @@ header > h1 {
     flex: 0 0 200px;
 }
 
+header > menu#icon {
+    display: none;
+}
+
 header > nav {
    display: flex;
    flex-flow: row wrap;
