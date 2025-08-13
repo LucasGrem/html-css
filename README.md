@@ -1,6 +1,6 @@
 # Curso HTML5 e CSS3 – Curso em Vídeo
 
-Este repositório contém os exercícios e projetos desenvolvidos durante o curso gratuito de **HTML5 e CSS3** oferecido pelo **Curso em Vídeo**, com carga horária total de **40 horas**.
+Este repositório contém os exercícios e projetos desenvolvidos durante o curso gratuito de **HTML5 e CSS3** oferecido pelo **Curso em Vídeo**, com carga horária total de **40 horas** cada módulo.
 
 O curso foi ministrado pelo professor **Gustavo Guanabara**, abordando os principais fundamentos do desenvolvimento web moderno, com foco em HTML5, CSS3 e design responsivo.
 
